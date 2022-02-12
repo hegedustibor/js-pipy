@@ -1,0 +1,29 @@
+{
+  "name": "@htibor/js-pipy",
+  "version": "1.0.1",
+  "description": "Use pipeline to prettier code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm test/*.test.js",
+    "validate": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hegedustibor/js-pipy.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "pipeline"
+  ],
+  "author": "Tibor Hegedűs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hegedustibor/js-pipy/issues"
+  },
+  "homepage": "https://github.com/hegedustibor/js-pipy#readme",
+  "devDependencies": {
+    "mocha": "^9.2.0",
+    "esm": "^3.2.25"
+  }
+}
